@@ -5,9 +5,6 @@ let treeObj=require("./tree.js");
 let organizeObj=require("./organize")
 
 
-console.log(inputArr);
-
-
 //1st 2 input words are node fileName.js then content follows which is stored in inputArr
 
 //node main.js tree "directoryPath"
