@@ -1,0 +1,746 @@
+PS C:\Users\User\Desktop\imp\JS\nodejs\fileOrganizer\organized_files\codes> node main.js help                         
+List of all commands:
+
+    1.node main.js tree "directoryPath"    
+    2.node main.js organize "directoryPath"
+    3.node main.js help
+
+
+PS C:\Users\User\Desktop\imp\JS\nodejs\fileOrganizer\organized_files\codes> node main.js tree  "C:\Users\User\Desktop"
+└─ Desktop
+        └─ imp
+                └─ JS
+                        └─ nodejs
+                                └─ .vscode
+                                        ├─launch.json
+                                ├─abc.js
+                                ├─abc.txt
+                                ├─childprocess.js
+                                └─ fileOrganizer
+                                        └─ organized_files
+                                                └─ codes
+                                                        ├─help.js    
+                                                        ├─main.js    
+                                                        ├─organize.js
+                                                        ├─tree.js    
+                                                        ├─utility.js 
+                                ├─fileSystem.js
+                                └─ FolderLecture1
+                                        ├─readme.md
+                                └─ FolderLecture10
+                                        ├─readme.md
+                                └─ FolderLecture2  
+                                        ├─readme.md
+                                └─ FolderLecture3  
+                                        ├─readme.md
+                                └─ FolderLecture4  
+                                        ├─readme.md
+                                └─ FolderLecture5
+                                        ├─readme.md
+                                └─ FolderLecture6
+                                        ├─readme.md
+                                └─ FolderLecture7
+                                        ├─readme.md
+                                └─ FolderLecture8
+                                        ├─readme.md
+                                └─ FolderLecture9
+                                        ├─readme.md
+                                └─ helloFolder
+                                        ├─readme.md
+                                ├─learnchalk.js
+                                └─ node_modules
+                                        ├─.package-lock.json
+                                        └─ ansi-styles
+                                                ├─index.d.ts
+                                                ├─index.js
+                                                ├─license
+                                                ├─package.json
+                                                ├─readme.md
+                                        └─ chalk
+                                                ├─index.d.ts
+                                                ├─license
+                                                ├─package.json
+                                                ├─readme.md
+                                                └─ source
+                                                        ├─index.js
+                                                        ├─templates.js
+                                                        ├─util.js
+                                        └─ color-convert
+                                                ├─CHANGELOG.md
+                                                ├─conversions.js
+                                                ├─index.js
+                                                ├─LICENSE
+                                                ├─package.json
+                                                ├─README.md
+                                                ├─route.js
+                                        └─ color-name
+                                                ├─index.js
+                                                ├─LICENSE
+                                                ├─package.json
+                                                ├─README.md
+                                        └─ figlet
+                                                ├─.jshintrc
+                                                ├─.travis.yml
+                                                └─ doc
+                                                        ├─figfont.txt
+                                                └─ examples
+                                                        └─ front-end
+                                                                ├─index.htm
+                                                        └─ node
+                                                                ├─app.js
+                                                                ├─appSync.js
+                                                └─ fonts
+                                                        ├─1Row.flf
+                                                        ├─3-D.flf
+                                                        ├─3D Diagonal.flf
+                                                        ├─3D-ASCII.flf
+                                                        ├─3x5.flf
+                                                        ├─4Max.flf
+                                                        ├─5 Line Oblique.flf
+                                                        ├─Acrobatic.flf
+                                                        ├─Alligator.flf
+                                                        ├─Alligator2.flf
+                                                        ├─Alpha.flf
+                                                        ├─Alphabet.flf
+                                                        ├─AMC 3 Line.flf
+                                                        ├─AMC 3 Liv1.flf
+                                                        ├─AMC AAA01.flf
+                                                        ├─AMC Neko.flf
+                                                        ├─AMC Razor.flf
+                                                        ├─AMC Razor2.flf
+                                                        ├─AMC Slash.flf
+                                                        ├─AMC Slider.flf
+                                                        ├─AMC Thin.flf
+                                                        ├─AMC Tubes.flf
+                                                        ├─AMC Untitled.flf
+                                                        ├─ANSI Regular.flf
+                                                        ├─ANSI Shadow.flf
+                                                        ├─Arrows.flf
+                                                        ├─ASCII New Roman.flf
+                                                        ├─Avatar.flf
+                                                        ├─B1FF.flf
+                                                        ├─Banner.flf
+                                                        ├─Banner3-D.flf
+                                                        ├─Banner3.flf
+                                                        ├─Banner4.flf
+                                                        ├─Barbwire.flf
+                                                        ├─Basic.flf
+                                                        ├─Bear.flf
+                                                        ├─Bell.flf
+                                                        ├─Benjamin.flf
+                                                        ├─Big Chief.flf
+                                                        ├─Big Money-ne.flf
+                                                        ├─Big Money-nw.flf
+                                                        ├─Big Money-se.flf
+                                                        ├─Big Money-sw.flf
+                                                        ├─Big.flf
+                                                        ├─Bigfig.flf
+                                                        ├─Binary.flf
+                                                        ├─Block.flf
+                                                        ├─Blocks.flf
+                                                        ├─Bloody.flf
+                                                        ├─Bolger.flf
+                                                        ├─Braced.flf
+                                                        ├─Bright.flf
+                                                        ├─Broadway KB.flf
+                                                        ├─Broadway.flf
+                                                        ├─Bubble.flf
+                                                        ├─Bulbhead.flf
+                                                        ├─Caligraphy.flf
+                                                        ├─Caligraphy2.flf
+                                                        ├─Calvin S.flf
+                                                        ├─Cards.flf
+                                                        ├─Catwalk.flf
+                                                        ├─Chiseled.flf
+                                                        ├─Chunky.flf
+                                                        ├─Coinstak.flf
+                                                        ├─Cola.flf
+                                                        ├─Colossal.flf
+                                                        ├─Computer.flf
+                                                        ├─Contessa.flf
+                                                        ├─Contrast.flf
+                                                        ├─Cosmike.flf
+                                                        ├─Crawford.flf
+                                                        ├─Crawford2.flf
+                                                        ├─Crazy.flf
+                                                        ├─Cricket.flf
+                                                        ├─Cursive.flf
+                                                        ├─Cyberlarge.flf
+                                                        ├─Cybermedium.flf
+                                                        ├─Cybersmall.flf
+                                                        ├─Cygnet.flf
+                                                        ├─DANC4.flf
+                                                        ├─Dancing Font.flf
+                                                        ├─Decimal.flf
+                                                        ├─Def Leppard.flf
+                                                        ├─Delta Corps Priest 1.flf
+                                                        ├─Diamond.flf
+                                                        ├─Diet Cola.flf
+                                                        ├─Digital.flf
+                                                        ├─Doh.flf
+                                                        ├─Doom.flf
+                                                        ├─DOS Rebel.flf
+                                                        ├─Dot Matrix.flf
+                                                        ├─Double Shorts.flf
+                                                        ├─Double.flf
+                                                        ├─Dr Pepper.flf
+                                                        ├─DWhistled.flf
+                                                        ├─Efti Chess.flf
+                                                        ├─Efti Font.flf
+                                                        ├─Efti Italic.flf
+                                                        ├─Efti Piti.flf
+                                                        ├─Efti Robot.flf
+                                                        ├─Efti Wall.flf
+                                                        ├─Efti Water.flf
+                                                        ├─Electronic.flf
+                                                        ├─Elite.flf
+                                                        ├─Epic.flf
+                                                        ├─Fender.flf
+                                                        ├─Filter.flf
+                                                        ├─Fire Font-k.flf
+                                                        ├─Fire Font-s.flf
+                                                        ├─Flipped.flf
+                                                        ├─Flower Power.flf
+                                                        ├─Four Tops.flf
+                                                        ├─Fraktur.flf
+                                                        ├─Fun Face.flf
+                                                        ├─Fun Faces.flf
+                                                        ├─Fuzzy.flf
+                                                        ├─Georgi16.flf
+                                                        ├─Georgia11.flf
+                                                        ├─Ghost.flf
+                                                        ├─Ghoulish.flf
+                                                        ├─Glenyn.flf
+                                                        ├─Goofy.flf
+                                                        ├─Gothic.flf
+                                                        ├─Graceful.flf
+                                                        ├─Gradient.flf
+                                                        ├─Graffiti.flf
+                                                        ├─Greek.flf
+                                                        ├─Heart Left.flf
+                                                        ├─Heart Right.flf
+                                                        ├─Henry 3D.flf
+                                                        ├─Hex.flf
+                                                        ├─Hieroglyphs.flf
+                                                        ├─Hollywood.flf
+                                                        ├─Horizontal Left.flf
+                                                        ├─Horizontal Right.flf
+                                                        ├─ICL-1900.flf
+                                                        ├─Impossible.flf
+                                                        ├─Invita.flf
+                                                        ├─Isometric1.flf
+                                                        ├─Isometric2.flf
+                                                        ├─Isometric3.flf
+                                                        ├─Isometric4.flf
+                                                        ├─Italic.flf
+                                                        ├─Ivrit.flf
+                                                        ├─Jacky.flf
+                                                        ├─Jazmine.flf
+                                                        ├─Jerusalem.flf
+                                                        ├─JS Block Letters.flf
+                                                        ├─JS Bracket Letters.flf
+                                                        ├─JS Capital Curves.flf
+                                                        ├─JS Cursive.flf
+                                                        ├─JS Stick Letters.flf
+                                                        ├─Katakana.flf
+                                                        ├─Kban.flf
+                                                        ├─Keyboard.flf
+                                                        ├─Knob.flf
+                                                        ├─Konto Slant.flf
+                                                        ├─Konto.flf
+                                                        ├─Larry 3D 2.flf
+                                                        ├─Larry 3D.flf
+                                                        ├─LCD.flf
+                                                        ├─Lean.flf
+                                                        ├─Letters.flf
+                                                        ├─Lil Devil.flf
+                                                        ├─Line Blocks.flf
+                                                        ├─Linux.flf
+                                                        ├─Lockergnome.flf
+                                                        ├─Madrid.flf
+                                                        ├─Marquee.flf
+                                                        ├─Maxfour.flf
+                                                        ├─Merlin1.flf
+                                                        ├─Merlin2.flf
+                                                        ├─Mike.flf
+                                                        ├─Mini.flf
+                                                        ├─Mirror.flf
+                                                        ├─Mnemonic.flf
+                                                        ├─Modular.flf
+                                                        ├─Morse.flf
+                                                        ├─Morse2.flf
+                                                        ├─Moscow.flf
+                                                        ├─Mshebrew210.flf
+                                                        ├─Muzzle.flf
+                                                        ├─Nancyj-Fancy.flf
+                                                        ├─Nancyj-Improved.flf
+                                                        ├─Nancyj-Underlined.flf
+                                                        ├─Nancyj.flf
+                                                        ├─Nipples.flf
+                                                        ├─NScript.flf
+                                                        ├─NT Greek.flf
+                                                        ├─NV Script.flf
+                                                        ├─O8.flf
+                                                        ├─Octal.flf
+                                                        ├─Ogre.flf
+                                                        ├─Old Banner.flf
+                                                        ├─OS2.flf
+                                                        ├─Pagga.flf
+                                                        ├─Patorjk's Cheese.flf
+                                                        ├─Patorjk-HeX.flf
+                                                        ├─Pawp.flf
+                                                        ├─Peaks Slant.flf
+                                                        ├─Peaks.flf
+                                                        ├─Pebbles.flf
+                                                        ├─Pepper.flf
+                                                        ├─Poison.flf
+                                                        ├─Puffy.flf
+                                                        ├─Puzzle.flf
+                                                        ├─Pyramid.flf
+                                                        ├─Rammstein.flf
+                                                        ├─Rectangles.flf
+                                                        ├─Red Phoenix.flf
+                                                        ├─Relief.flf
+                                                        ├─Relief2.flf
+                                                        ├─Reverse.flf
+                                                        ├─Roman.flf
+                                                        ├─Rot13.flf
+                                                        ├─Rotated.flf
+                                                        ├─Rounded.flf
+                                                        ├─Rowan Cap.flf
+                                                        ├─Rozzo.flf
+                                                        ├─Runic.flf
+                                                        ├─Runyc.flf
+                                                        ├─S Blood.flf
+                                                        ├─Santa Clara.flf
+                                                        ├─Script.flf
+                                                        ├─Serifcap.flf
+                                                        ├─Shadow.flf
+                                                        ├─Shimrod.flf
+                                                        ├─Short.flf
+                                                        ├─SL Script.flf
+                                                        ├─Slant Relief.flf
+                                                        ├─Slant.flf
+                                                        ├─Slide.flf
+                                                        ├─Small Caps.flf
+                                                        ├─Small Isometric1.flf
+                                                        ├─Small Keyboard.flf
+                                                        ├─Small Poison.flf
+                                                        ├─Small Script.flf
+                                                        ├─Small Shadow.flf
+                                                        ├─Small Slant.flf
+                                                        ├─Small Tengwar.flf
+                                                        ├─Small.flf
+                                                        ├─Soft.flf
+                                                        ├─Speed.flf
+                                                        ├─Spliff.flf
+                                                        ├─Stacey.flf
+                                                        ├─Stampate.flf
+                                                        ├─Stampatello.flf
+                                                        ├─Standard.flf
+                                                        ├─Star Strips.flf
+                                                        ├─Star Wars.flf
+                                                        ├─Stellar.flf
+                                                        ├─Stforek.flf
+                                                        ├─Stick Letters.flf
+                                                        ├─Stop.flf
+                                                        ├─Straight.flf
+                                                        ├─Stronger Than All.flf
+                                                        ├─Sub-Zero.flf
+                                                        ├─Swamp Land.flf
+                                                        ├─Swan.flf
+                                                        ├─Sweet.flf
+                                                        ├─Tanja.flf
+                                                        ├─Tengwar.flf
+                                                        ├─Term.flf
+                                                        ├─Test1.flf
+                                                        ├─The Edge.flf
+                                                        ├─Thick.flf
+                                                        ├─Thin.flf
+                                                        ├─THIS.flf
+                                                        ├─Thorned.flf
+                                                        ├─Three Point.flf
+                                                        ├─Ticks Slant.flf
+                                                        ├─Ticks.flf
+                                                        ├─Tiles.flf
+                                                        ├─Tinker-Toy.flf
+                                                        ├─Tombstone.flf
+                                                        ├─Train.flf
+                                                        ├─Trek.flf
+                                                        ├─Tsalagi.flf
+                                                        ├─Tubular.flf
+                                                        ├─Twisted.flf
+                                                        ├─Two Point.flf
+                                                        ├─Univers.flf
+                                                        ├─USA Flag.flf
+                                                        ├─Varsity.flf
+                                                        ├─Wavy.flf
+                                                        ├─Weird.flf
+                                                        ├─Wet Letter.flf
+                                                        ├─Whimsy.flf
+                                                        ├─Wow.flf
+                                                ├─Gruntfile.js
+                                                └─ importable-fonts
+                                                        ├─1Row.js
+                                                        ├─3-D.js
+                                                        ├─3D Diagonal.js
+                                                        ├─3D-ASCII.js
+                                                        ├─3x5.js
+                                                        ├─4Max.js
+                                                        ├─5 Line Oblique.js
+                                                        ├─Acrobatic.js
+                                                        ├─Alligator.js
+                                                        ├─Alligator2.js
+                                                        ├─Alpha.js
+                                                        ├─Alphabet.js
+                                                        ├─AMC 3 Line.js
+                                                        ├─AMC 3 Liv1.js
+                                                        ├─AMC AAA01.js
+                                                        ├─AMC Neko.js
+                                                        ├─AMC Razor.js
+                                                        ├─AMC Razor2.js
+                                                        ├─AMC Slash.js
+                                                        ├─AMC Slider.js
+                                                        ├─AMC Thin.js
+                                                        ├─AMC Tubes.js
+                                                        ├─AMC Untitled.js
+                                                        ├─ANSI Regular.js
+                                                        ├─ANSI Shadow.js
+                                                        ├─Arrows.js
+                                                        ├─ASCII New Roman.js
+                                                        ├─Avatar.js
+                                                        ├─B1FF.js
+                                                        ├─Banner.js
+                                                        ├─Banner3-D.js
+                                                        ├─Banner3.js
+                                                        ├─Banner4.js
+                                                        ├─Barbwire.js
+                                                        ├─Basic.js
+                                                        ├─Bear.js
+                                                        ├─Bell.js
+                                                        ├─Benjamin.js
+                                                        ├─Big Chief.js
+                                                        ├─Big Money-ne.js
+                                                        ├─Big Money-nw.js
+                                                        ├─Big Money-se.js
+                                                        ├─Big Money-sw.js
+                                                        ├─Big.js
+                                                        ├─Bigfig.js
+                                                        ├─Binary.js
+                                                        ├─Block.js
+                                                        ├─Blocks.js
+                                                        ├─Bloody.js
+                                                        ├─Bolger.js
+                                                        ├─Braced.js
+                                                        ├─Bright.js
+                                                        ├─Broadway KB.js
+                                                        ├─Broadway.js
+                                                        ├─Bubble.js
+                                                        ├─Bulbhead.js
+                                                        ├─Caligraphy.js
+                                                        ├─Caligraphy2.js
+                                                        ├─Calvin S.js
+                                                        ├─Cards.js
+                                                        ├─Catwalk.js
+                                                        ├─Chiseled.js
+                                                        ├─Chunky.js
+                                                        ├─Coinstak.js
+                                                        ├─Cola.js
+                                                        ├─Colossal.js
+                                                        ├─Computer.js
+                                                        ├─Contessa.js
+                                                        ├─Contrast.js
+                                                        ├─Cosmike.js
+                                                        ├─Crawford.js
+                                                        ├─Crawford2.js
+                                                        ├─Crazy.js
+                                                        ├─Cricket.js
+                                                        ├─Cursive.js
+                                                        ├─Cyberlarge.js
+                                                        ├─Cybermedium.js
+                                                        ├─Cybersmall.js
+                                                        ├─Cygnet.js
+                                                        ├─DANC4.js
+                                                        ├─Dancing Font.js
+                                                        ├─Decimal.js
+                                                        ├─Def Leppard.js
+                                                        ├─Delta Corps Priest 1.js
+                                                        ├─Diamond.js
+                                                        ├─Diet Cola.js
+                                                        ├─Digital.js
+                                                        ├─Doh.js
+                                                        ├─Doom.js
+                                                        ├─DOS Rebel.js
+                                                        ├─Dot Matrix.js
+                                                        ├─Double Shorts.js
+                                                        ├─Double.js
+                                                        ├─Dr Pepper.js
+                                                        ├─DWhistled.js
+                                                        ├─Efti Chess.js
+                                                        ├─Efti Font.js
+                                                        ├─Efti Italic.js
+                                                        ├─Efti Piti.js
+                                                        ├─Efti Robot.js
+                                                        ├─Efti Wall.js
+                                                        ├─Efti Water.js
+                                                        ├─Electronic.js
+                                                        ├─Elite.js
+                                                        ├─Epic.js
+                                                        ├─Fender.js
+                                                        ├─Filter.js
+                                                        ├─Fire Font-k.js
+                                                        ├─Fire Font-s.js
+                                                        ├─Flipped.js
+                                                        ├─Flower Power.js
+                                                        ├─Four Tops.js
+                                                        ├─Fraktur.js
+                                                        ├─Fun Face.js
+                                                        ├─Fun Faces.js
+                                                        ├─Fuzzy.js
+                                                        ├─Georgi16.js
+                                                        ├─Georgia11.js
+                                                        ├─Ghost.js
+                                                        ├─Ghoulish.js
+                                                        ├─Glenyn.js
+                                                        ├─Goofy.js
+                                                        ├─Gothic.js
+                                                        ├─Graceful.js
+                                                        ├─Gradient.js
+                                                        ├─Graffiti.js
+                                                        ├─Greek.js
+                                                        ├─Heart Left.js
+                                                        ├─Heart Right.js
+                                                        ├─Henry 3D.js
+                                                        ├─Hex.js
+                                                        ├─Hieroglyphs.js
+                                                        ├─Hollywood.js
+                                                        ├─Horizontal Left.js
+                                                        ├─Horizontal Right.js
+                                                        ├─ICL-1900.js
+                                                        ├─Impossible.js
+                                                        ├─Invita.js
+                                                        ├─Isometric1.js
+                                                        ├─Isometric2.js
+                                                        ├─Isometric3.js
+                                                        ├─Isometric4.js
+                                                        ├─Italic.js
+                                                        ├─Ivrit.js
+                                                        ├─Jacky.js
+                                                        ├─Jazmine.js
+                                                        ├─Jerusalem.js
+                                                        ├─JS Block Letters.js
+                                                        ├─JS Bracket Letters.js
+                                                        ├─JS Capital Curves.js
+                                                        ├─JS Cursive.js
+                                                        ├─JS Stick Letters.js
+                                                        ├─Katakana.js
+                                                        ├─Kban.js
+                                                        ├─Keyboard.js
+                                                        ├─Knob.js
+                                                        ├─Konto Slant.js
+                                                        ├─Konto.js
+                                                        ├─Larry 3D 2.js
+                                                        ├─Larry 3D.js
+                                                        ├─LCD.js
+                                                        ├─Lean.js
+                                                        ├─Letters.js
+                                                        ├─Lil Devil.js
+                                                        ├─Line Blocks.js
+                                                        ├─Linux.js
+                                                        ├─Lockergnome.js
+                                                        ├─Madrid.js
+                                                        ├─Marquee.js
+                                                        ├─Maxfour.js
+                                                        ├─Merlin1.js
+                                                        ├─Merlin2.js
+                                                        ├─Mike.js
+                                                        ├─Mini.js
+                                                        ├─Mirror.js
+                                                        ├─Mnemonic.js
+                                                        ├─Modular.js
+                                                        ├─Morse.js
+                                                        ├─Morse2.js
+                                                        ├─Moscow.js
+                                                        ├─Mshebrew210.js
+                                                        ├─Muzzle.js
+                                                        ├─Nancyj-Fancy.js
+                                                        ├─Nancyj-Improved.js
+                                                        ├─Nancyj-Underlined.js
+                                                        ├─Nancyj.js
+                                                        ├─Nipples.js
+                                                        ├─NScript.js
+                                                        ├─NT Greek.js
+                                                        ├─NV Script.js
+                                                        ├─O8.js
+                                                        ├─Octal.js
+                                                        ├─Ogre.js
+                                                        ├─Old Banner.js
+                                                        ├─OS2.js
+                                                        ├─Pagga.js
+                                                        ├─Patorjk's Cheese.js
+                                                        ├─Patorjk-HeX.js
+                                                        ├─Pawp.js
+                                                        ├─Peaks Slant.js
+                                                        ├─Peaks.js
+                                                        ├─Pebbles.js
+                                                        ├─Pepper.js
+                                                        ├─Poison.js
+                                                        ├─Puffy.js
+                                                        ├─Puzzle.js
+                                                        ├─Pyramid.js
+                                                        ├─Rammstein.js
+                                                        ├─Rectangles.js
+                                                        ├─Red Phoenix.js
+                                                        ├─Relief.js
+                                                        ├─Relief2.js
+                                                        ├─Reverse.js
+                                                        ├─Roman.js
+                                                        ├─Rot13.js
+                                                        ├─Rotated.js
+                                                        ├─Rounded.js
+                                                        ├─Rowan Cap.js
+                                                        ├─Rozzo.js
+                                                        ├─Runic.js
+                                                        ├─Runyc.js
+                                                        ├─S Blood.js
+                                                        ├─Santa Clara.js
+                                                        ├─Script.js
+                                                        ├─Serifcap.js
+                                                        ├─Shadow.js
+                                                        ├─Shimrod.js
+                                                        ├─Short.js
+                                                        ├─SL Script.js
+                                                        ├─Slant Relief.js
+                                                        ├─Slant.js
+                                                        ├─Slide.js
+                                                        ├─Small Caps.js
+                                                        ├─Small Isometric1.js
+                                                        ├─Small Keyboard.js
+                                                        ├─Small Poison.js
+                                                        ├─Small Script.js
+                                                        ├─Small Shadow.js
+                                                        ├─Small Slant.js
+                                                        ├─Small Tengwar.js
+                                                        ├─Small.js
+                                                        ├─Soft.js
+                                                        ├─Speed.js
+                                                        ├─Spliff.js
+                                                        ├─Stacey.js
+                                                        ├─Stampate.js
+                                                        ├─Stampatello.js
+                                                        ├─Standard.js
+                                                        ├─Star Strips.js
+                                                        ├─Star Wars.js
+                                                        ├─Stellar.js
+                                                        ├─Stforek.js
+                                                        ├─Stick Letters.js
+                                                        ├─Stop.js
+                                                        ├─Straight.js
+                                                        ├─Stronger Than All.js
+                                                        ├─Sub-Zero.js
+                                                        ├─Swamp Land.js
+                                                        ├─Swan.js
+                                                        ├─Sweet.js
+                                                        ├─Tanja.js
+                                                        ├─Tengwar.js
+                                                        ├─Term.js
+                                                        ├─Test1.js
+                                                        ├─The Edge.js
+                                                        ├─Thick.js
+                                                        ├─Thin.js
+                                                        ├─THIS.js
+                                                        ├─Thorned.js
+                                                        ├─Three Point.js
+                                                        ├─Ticks Slant.js
+                                                        ├─Ticks.js
+                                                        ├─Tiles.js
+                                                        ├─Tinker-Toy.js
+                                                        ├─Tombstone.js
+                                                        ├─Train.js
+                                                        ├─Trek.js
+                                                        ├─Tsalagi.js
+                                                        ├─Tubular.js
+                                                        ├─Twisted.js
+                                                        ├─Two Point.js
+                                                        ├─Univers.js
+                                                        ├─USA Flag.js
+                                                        ├─Varsity.js
+                                                        ├─Wavy.js
+                                                        ├─Weird.js
+                                                        ├─Wet Letter.js
+                                                        ├─Whimsy.js
+                                                        ├─Wow.js
+                                                └─ lib
+                                                        ├─figlet.js
+                                                        ├─node-figlet.js
+                                                ├─LICENSE.txt
+                                                ├─package.json
+                                                ├─README.md
+                                                └─ test
+                                                        └─ expected
+                                                                ├─.gitattributes
+                                                                ├─dancingFont
+                                                                ├─dancingFontReverse
+                                                                ├─graffiti
+                                                                ├─standard
+                                                                ├─verticalSmushRule2
+                                                                ├─wrapSimple
+                                                                ├─wrapSimpleThreeLines
+                                                                ├─wrapWhitespaceBreakWord
+                                                                ├─wrapWhitespaceLogString
+                                                                ├─wrapWord
+                                                                ├─wrapWordThreeLines
+                                                        ├─figlet_test.js
+                                                └─ utils
+                                                        ├─flf-to-strings.js
+                                        └─ has-flag
+                                                ├─index.d.ts
+                                                ├─index.js
+                                                ├─license
+                                                ├─package.json
+                                                ├─readme.md
+                                        └─ supports-color
+                                                ├─index.js
+                                                ├─package.json
+                                                ├─readme.md
+                                ├─os.js
+                                ├─package-lock.json
+                                ├─package.json
+                                ├─path.js
+                        └─ wcat
+                                ├─wcat.js
+                └─ node_modules
+                        ├─.package-lock.json
+                        └─ obop
+                                └─ build
+                                        ├─obop.min.js
+                                ├─index.js
+                                └─ lib
+                                        ├─dollar_update.js
+                                        ├─dollar_where.js
+                                        ├─order.js
+                                        ├─system.json
+                                        ├─update.js
+                                        ├─view.js
+                                        ├─where.js
+                                ├─LICENSE
+                                ├─README.md
+                                ├─LICENSE
+                                ├─process.argv.js
+                                ├─README.md
+                                └─ types
+                                        ├─process.argv.d.ts
+                └─ organized_files
+
+
+PS C:\Users\User\Desktop\imp\JS\nodejs\fileOrganizer\organized_files\codes> node main.js organize  "C:\Users\User\Downloads"   
+Organize command implemented successfully for C:\Users\User\Downloads
+Unit 6 SwrTesting1.pptx.odp
+odp
+Unit 6 SwrTesting1.pptx.odp  belongs to => documents
+Unit 6 SwrTesting1.pptx.odp  copied to=> documents
+Unit 6 SwrTesting2.pptx.pdf
+pdf
+Unit 6 SwrTesting2.pptx.pdf  belongs to => documents
+Unit 6 SwrTesting2.pptx.pdf  copied to=> documents
+PS C:\Users\User\Desktop\imp\JS\nodejs\fileOrganizer\organized_files\codes>
