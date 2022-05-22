@@ -7,7 +7,6 @@ function helpFn(dirPath){
     3.node main.js help
 
     `);
-    console.log("Help command implemented successfully for "+dirPath);
 }
 
 
